@@ -1,0 +1,56 @@
+.container {
+    padding: 20px;
+    position: relative;
+}
+
+.link-button {
+    width: 20px;
+    background-color: inherit;
+    padding: 0;
+    border: none;
+    position: absolute;
+    top: 16px;
+    left: 10px;
+}
+
+.icon {
+    width: 36px;
+    color: white;
+}
+
+.pages-container {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.current-page {
+    color: #e4229c;
+}
+
+.progress-container {
+    background-color: gray;
+    height: 7px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.progress {
+    background-color: #e4229c;
+    height: 7px;
+    border-radius: 15px;
+}
+
+@media (min-width: 600px) {
+    .container {
+        width: 500px;
+        margin: 0 auto 20px;
+        box-sizing: border-box;
+        border: solid 1px #36014d;
+        border-radius: 20px;
+        padding: 20px;
+    }
+}

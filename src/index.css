@@ -1,0 +1,35 @@
+body {
+  background-color: #1f002b;
+  font-family: sans-serif;
+}
+
+.submit-link-button {
+  width: 90%;
+  box-sizing: border-box;
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  transform: translate(-50%, 0);
+  display: block;
+  padding: 20px;
+  text-align: center;
+  background: #E4229C;
+  border-radius: 25px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+  outline: none;
+  cursor: pointer;
+}
+
+@media (min-width: 600px) {
+  .submit-link-button {
+    width: 500px;
+  }
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}

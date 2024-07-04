@@ -1,0 +1,43 @@
+.loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    color: white;
+}
+
+.progress-circle {
+    position: relative;
+    width: 250px;
+    height: 250px;
+}
+
+.svg {
+    transform: rotate(-90deg);
+    width: 100%;
+    height: 100%;
+}
+
+.circle-bg {
+    fill: none;
+    stroke: #E8EAF2;
+    stroke-width: 2;
+}
+
+.circle {
+    fill: none;
+    stroke: #E4229C;
+    stroke-width: 2;
+    stroke-linecap: round;
+    transition: stroke-dasharray 0.3s ease;
+}
+
+.percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    font-weight: bold;
+}

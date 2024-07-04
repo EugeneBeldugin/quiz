@@ -1,0 +1,141 @@
+.items-container {
+    display: flex;
+    gap: 10px;
+    padding-inline-start: 0;
+    list-style: none;
+    justify-content: center;
+}
+
+.item-wrapper {
+    color: #fff;
+    padding: 20px;
+    background: #36173D;
+    border-radius: 16px;
+    border: solid 1px #36173D;
+    transition: background 0.5s, border 0.5s;
+    cursor: pointer;
+}
+
+.active {
+    border: solid 1px #E4229B;
+    background: #E4229B33;
+    transition: background-color 0.5s, border 1.0s;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.flex-col-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+.flex-row-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rounded-item {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 12px;
+    text-align: center;
+}
+
+.link-icon {
+    font-size: 46px;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    background: #6D4376;
+    border: 1px solid #E4229B;
+    border-radius: 8px;
+}
+
+.checked {
+    background-color: #E4229B;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+.hidden {
+    display: none;
+}
+
+.email-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+}
+
+.input {
+    display: block;
+    margin-top: 100px;
+    color: #fff;
+    padding: 20px;
+    background: #36173D;
+    border-radius: 16px;
+    border: solid 1px #36173D;
+    outline: none;
+}
+
+.error-input {
+    border-color: #E4229B;
+    transition: border-color 0.5s;
+}
+
+.error-container {
+    height: 30px;
+    color: #E4229B;
+    text-align: center;
+}
+
+.terms {
+    text-align: center;
+    color: #fff;
+}
+
+.basic-container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.download-button {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    background-color: inherit;
+    border: none;
+    font-size: 20px;
+}
+
+.download-icon {
+    width: 35px;
+}
+
